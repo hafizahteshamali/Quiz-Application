@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Grad</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/images/logo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">How it works?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <button class="login-btn btn" onclick="loginButton()">Login</button>
+            <button class="signup-btn btn" onclick="signupButton()">Sign Up</button>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </div>
+  <div class="container">
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+      <div class="row text-center text-lg-left">
+        <div class="col-xl-2 col-lg-2 col-md-2 col-12 my-auto text-container">
+          <h1 class="heading">Learn new concepts for each questions</h1>
+          <span><img src="./assets/images/Line 2.png" alt=""> We help you prepare for exams and quizes</span><br>
+          <button class="signup-btn btn new-signup" onclick="signupButton()">Sign Up</button><button class="btnn"><i
+              class="fa-solid fa-angle-down"></i> Know More</butto>
+        </div>
+        <div class="col-xl-2 col-lg-2 col-md-2 col-12 my-auto image image-container">
+          <img src="./assets/images/Group 118.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>
